@@ -23,7 +23,7 @@ class StartPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-       locale: DevicePreview.locale(context), // Add the locale here
+       locale: DevicePreview.locale(context),
       builder: DevicePreview.appBuilder, 
       debugShowCheckedModeBanner: false,
       theme: Themes.light,
