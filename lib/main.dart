@@ -12,7 +12,7 @@ void main() async {
   runApp(
      DevicePreview(
     enabled: true,
-    builder: (context) => StartPage()), // Wrap your app
+    builder: (context) => StartPage()),
   );
   
 }
